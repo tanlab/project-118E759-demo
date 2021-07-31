@@ -19,6 +19,7 @@
             padding: 0;
         }
 
+
         #login-form-container{
             position: absolute;
             width: 100%;
@@ -26,6 +27,9 @@
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+        footer{
+            margin-top: auto;
         }
     </style>
 </head>	
@@ -71,6 +75,16 @@
                 </div>
             </div>
         </form>
+        <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                This is a demo website of the <a href="https://doi.org/10.1109/BIBE50027.2020.00026" rel="noopener">Chemical Induced Differential Gene Expression Prediction on LINCS Database</a> paper.<br> It uses deep neural networks and a variational autoencoder (if the JTVAE option is selected) to predict how genes from the selected cell line would be affected by the entered chemical.
+            </p>
+        </div>
+    </footer>
     </div>
-</body>
+
+
+</body>    
+
 </html>
